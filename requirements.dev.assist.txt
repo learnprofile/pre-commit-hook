@@ -1,0 +1,26 @@
+# Universal Smart Pre-commit Requirements
+# Comprehensive enterprise security and quality tools
+# Includes vulnerability scanning and content analysis
+
+pre-commit>=3.5.0
+gitleaks>=8.18.0
+detect-secrets>=1.4.0
+safety>=2.3.5
+bandit[toml]>=1.7.5
+black>=23.9.1
+flake8>=6.1.0
+sqlfluff>=2.3.2
+semgrep>=1.45.0
+checkov>=3.0.0
+mypy>=1.6.0
+pylint>=3.0.0
+trufflehog>=3.63.0
+pip-audit>=2.6.1
+cyclonedx-bom>=4.0.0
+osv-scanner>=1.4.3
+vulndb>=1.0.0
+
+# Additional security validation
+# Run: pip-audit --desc --output json
+# Run: safety check --json
+# Run: osv-scanner --lockfile requirements.txt
