@@ -77,25 +77,25 @@ Your new security system runs 14 different security layers on every commit. Here
 ### Complete Security Coverage
 
 ```
-✅ Multi-Layer Secret Detection
+ Multi-Layer Secret Detection
    • Detect Secrets - Advanced Pattern Detection......PASSED
    • Detect Private Keys (SSH, SSL certificates)......PASSED
 
-✅ File and Repository Validation  
+ File and Repository Validation  
    • Check Merge Conflicts...........................PASSED
    • Check Large Files...............................PASSED
    • Fix End of Files................................PASSED
    • Trim Trailing Whitespace........................PASSED
    • Check YAML Syntax...............................PASSED
 
-✅ Vulnerability and Dependency Analysis
+ Vulnerability and Dependency Analysis
    • Package Vulnerability Scanning..................PASSED
    • OWASP Dependency Vulnerability Scanner..........PASSED
    • Comprehensive SAST Security Analysis............PASSED
    • API Security Scanner (OWASP API Top 10)........PASSED
    • SonarQube-Style Security Analysis...............PASSED
 
-✅ Enterprise and Content Quality
+ Enterprise and Content Quality
    • Universal Technology Stack Detection............PASSED
    • Enterprise Security Pattern Detection...........PASSED
    • AI-Generated Content Detection..................ACTIVE
@@ -153,13 +153,13 @@ Excluded from scanning:
 Every detection includes specific details for fast resolution:
 
 ```
-🔍 Detection Format:
+ Detection Format:
    File: [Full path to problematic file]
    Line: [Exact line number where issue occurs]  
    Content: [The actual problematic text]
    
 Example:
-🔍 SENSITIVE DATA DETECTED:
+ SENSITIVE DATA DETECTED:
    File: C:\projects\myapp\src\config\database.js
    Line: 23
    Content: const password = "hardcoded_secret_123"
@@ -168,7 +168,7 @@ Example:
 ### Performance Metrics from Real Usage
 
 ```
-📊 Actual Performance Data:
+ Actual Performance Data:
 • First run: 2-3 minutes (installing security tools)
 • Subsequent runs: 30-60 seconds
 • Files analyzed per second: ~50-100 files
@@ -211,17 +211,17 @@ Data File Security Analysis..............................................Failed
 - hook id: data-file-analyzer
 - exit code: 1
 
-🔍 SENSITIVE DATA DETECTED:
+ SENSITIVE DATA DETECTED:
    File: /src/config/database.yml
    Line: 23
    Content: password: "hardcoded_secret_123"
 
-🔍 ENTERPRISE VIOLATION:
+ ENTERPRISE VIOLATION:
    File: /src/utils/email.js  
    Line: 15
    Content: const emailDomain = "@yourcompany.com"
 
-❌ 2 security issues found - Review above files
+ 2 security issues found - Review above files
 ```
 
 ### AI-Generated Content Detection
@@ -233,18 +233,18 @@ AI-Generated Content Detection...........................................Failed
 - hook id: ai-content-detector
 - exit code: 1
 
-🤖 AI-GENERATED CONTENT DETECTED:
+ AI-GENERATED CONTENT DETECTED:
    File: /docs/README.md
    Line: 5
    Content: This comprehensive solution will revolutionize your workflow. 
    This cutting-edge approach is ridiculously easy to implement.
 
-😀 EMOJI DETECTED:
+ EMOJI DETECTED:
    File: /docs/features.md
    Line: 11
-   Content: This is so exciting! 🎉 Our new system is perfect! ✅
+   Content: This is so exciting! 🎉 Our new system is perfect! 
 
-❌ 6 AI/emoji patterns found - Review content for professional tone
+ 6 AI/emoji patterns found - Review content for professional tone
 ```
 
 ### Performance Metrics
@@ -253,11 +253,11 @@ Here's what you can expect in terms of performance:
 
 ```
 Security Analysis Complete:
-✅ Overall Score: 78% (11/14 checks passed)
-⏱️ Runtime: 45 seconds for comprehensive analysis  
-📁 Files scanned: 50+ files across multiple technologies
-🔍 Technologies detected: PowerShell, HTML, Markdown, JSON, YAML, Python
-🛡️ Security layers: 14 different analysis types
+ Overall Score: 78% (11/14 checks passed)
+ Runtime: 45 seconds for comprehensive analysis  
+ Files scanned: 50+ files across multiple technologies
+ Technologies detected: PowerShell, HTML, Markdown, JSON, YAML, Python
+ Security layers: 14 different analysis types
 ```
 
 > **No more guessing!** You know exactly what needs to be fixed, where to find it, and why it's a problem. Each detection includes the specific line number and content that triggered the alert.
@@ -270,11 +270,11 @@ Real results from implementing this comprehensive security system:
 
 ```
 Measurable Impact:
-✅ 78% security coverage across all code files
-✅ Zero manual security review time for basic issues  
-✅ Consistent code quality (14 automated checks)
-✅ Learning built-in - developers see issues as they code
-✅ 45-second feedback loop (local detection vs CI/CD delays)
+ 78% security coverage across all code files
+ Zero manual security review time for basic issues  
+ Consistent code quality (14 automated checks)
+ Learning built-in - developers see issues as they code
+ 45-second feedback loop (local detection vs CI/CD delays)
 ```
 
 - **Consistent standards** across all team members - same tools, same rules
@@ -286,11 +286,11 @@ Measurable Impact:
 
 ```
 Security Coverage:
-🛡️ SAST analysis on every commit
-🔍 Secret detection with 0% false negatives on real secrets
-📊 OWASP API Top 10 compliance checking
-🏢 Enterprise policy enforcement (custom patterns)
-📈 Audit trail - every commit validated automatically
+ SAST analysis on every commit
+ Secret detection with 0% false negatives on real secrets
+ OWASP API Top 10 compliance checking
+ Enterprise policy enforcement (custom patterns)
+ Audit trail - every commit validated automatically
 ```
 
 - **Proactive protection** - issues caught before they reach production
@@ -302,11 +302,11 @@ Security Coverage:
 
 ```
 Business Impact:
-💰 Reduced CI/CD costs (catch issues locally)
-⚡ Faster delivery (fewer post-commit fixes)  
-📊 Measurable quality improvement (78% security coverage)
-👥 Developer satisfaction (tools that help vs hinder)
-🎯 Enterprise compliance (OWASP, industry standards)
+ Reduced CI/CD costs (catch issues locally)
+ Faster delivery (fewer post-commit fixes)  
+ Measurable quality improvement (78% security coverage)
+ Developer satisfaction (tools that help vs hinder)
+ Enterprise compliance (OWASP, industry standards)
 ```
 
 - **ROI visible in weeks** - immediate reduction in security-related delays
@@ -339,12 +339,12 @@ Business Impact:
 This comprehensive security automation demonstrates that you can have both development velocity AND security. Our testing with real projects shows:
 
 ```
-📊 Proven Results:
-✅ 78% security coverage (11/14 checks passing)
-✅ 45-second comprehensive analysis 
-✅ 50+ files scanned across multiple technologies
-✅ <5% false positive rate on real violations
-✅ Zero deployment friction for development teams
+ Proven Results:
+ 78% security coverage (11/14 checks passing)
+ 45-second comprehensive analysis 
+ 50+ files scanned across multiple technologies
+ <5% false positive rate on real violations
+ Zero deployment friction for development teams
 ```
 
 The system automatically detects your technology stack (React, Vue, Python, .NET, SQL, etc.) and configures the appropriate security and quality checks. No manual configuration needed.
