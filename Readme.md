@@ -636,10 +636,12 @@ repos:
             if violations > 0: exit(1)
             else: print("Enterprise security passed")
 ```
+<img width="890" height="472" alt="image" src="https://github.com/user-attachments/assets/95085a7b-1d0a-48eb-b7e4-24beb300bab5" />
 
 
 
 ---
+
 
 
 
