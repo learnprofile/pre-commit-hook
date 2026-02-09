@@ -357,10 +357,15 @@ Key innovations that make this practical:
 - **Multi-technology support** - Works across your entire tech stack automatically
 - **Detailed error reporting** - Exact file, line, and content for fast fixes
 
-> **Additional references:** I added additional pre-commit-config yml file incase if anyone interested to use inbuild github repo's for checking rather than PowerShell scripting
+> 
+
+## Additional References
+
+**Additional references:** I added additional pre-commit-config yml file incase if anyone interested to use inbuild github repo's for checking rather than PowerShell scripting
+
+
 ```
-# Comprehensive Security Pre-commit Configuration
-# Enhanced with multiple security scanning layers
+
 
 repos:
   # Secret Detection Tool
@@ -542,7 +547,7 @@ repos:
             else:
                 print("COVERAGE: Generic project - universal security rules applied")
 
-  # Comprehensive Security Analysis Suite - Standard Packages
+
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.5
     hooks:
@@ -584,7 +589,7 @@ repos:
         name: Python Code Quality & Security
         args: ['--select=E,W,F,C,N', '--max-line-length=100']
 
-  # Data File Security Analysis
+ 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
@@ -600,7 +605,7 @@ repos:
       - id: detect-private-key
         name: Private Key Detection
 
-  # Enterprise Pattern Detection (Custom but Minimal)
+
   - repo: local
     hooks:
       - id: enterprise-patterns-simple
@@ -635,6 +640,7 @@ repos:
 
 
 ---
+
 
 
 
